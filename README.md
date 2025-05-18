@@ -53,3 +53,9 @@ dependencies:
   google_fonts: ^6.1.0
 
 ```
+## 🚀 Jalankan Proyek
+
+```bash
+flutter pub get
+flutter run
+
