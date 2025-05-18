@@ -26,6 +26,20 @@ List todos = [];
     super.initState();
   }
 
+  // open new todo dialog
+  void openNewTodo(){
+    showDialog(
+    context: context,
+    builder: (context) => AlertDialog(
+      title: const Text('Add Task'),
+      content: TextField(
+        controller: _textController,
+      ),
+    ),
+    );
+  }
+
+
   // add new todo
 
   // delete todo
