@@ -19,10 +19,12 @@ final _textController = TextEditingController();
 List todos = [];
 
   @override
-  Widget build(BuildContext context) {
-    // load data, if none exist then defalut
+  void initState() {
+      // load data, if none exist then defalut
     super.initState();
     
+  }
+  Widget build(BuildContext context) {  
     return Scaffold(
 
     );
