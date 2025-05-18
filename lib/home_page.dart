@@ -68,6 +68,12 @@ class _HomePageState extends State<HomePage> {
 
   // delete todo
 
+  // save to database
+  void saveToDatabase() {
+    _myBox.put('TODO_LIST', todos);
+  }
+
+
   Widget build(BuildContext context) {
     return Scaffold(
 
@@ -86,7 +92,11 @@ class _HomePageState extends State<HomePage> {
 
           return ListTile(
             title: Text(todo),
-            ); 
+            trailing: IconButton(
+               onPressed: () {},
+              icon: const Icon(Icons.delete),
+            ),
+          ); 
         },
       ),
     );
