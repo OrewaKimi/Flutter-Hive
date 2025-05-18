@@ -1,15 +1,12 @@
 
-## ✅ Flutter Hive To-Do App
+## ✨ Flutter Hive To-Do App
 
 A minimal, modern To-Do list application built using **Flutter** and **Hive** with a Gen Z-style UI. This app supports task creation, deletion, and persistent local storage using Hive. It's lightweight, responsive, and visually clean.
 
----
 
 ## 📌 Pengertian
 
 Aplikasi **To-Do List** ini merupakan aplikasi pencatat tugas harian yang dibangun menggunakan framework **Flutter** dan **Hive** untuk penyimpanan data lokal tanpa internet. Aplikasi ini memiliki tampilan antarmuka (UI) yang minimalis, modern, dan estetis, cocok untuk pengguna Gen Z.
-
----
 
 ## 🎯 Tujuan dan Fokus Project
 
@@ -17,8 +14,6 @@ Aplikasi **To-Do List** ini merupakan aplikasi pencatat tugas harian yang dibang
 - 💾 Menyimpan data secara lokal menggunakan Hive (NoSQL database ringan).
 - 🎨 Menghadirkan UI yang profesional, namun tetap fresh dan kekinian.
 - 🧠 Fokus pada performa ringan, efisiensi kode, dan pengalaman pengguna.
-
----
 
 ## 🔍 Perbedaan dengan Aplikasi To-Do Biasa
 
@@ -30,15 +25,11 @@ Aplikasi **To-Do List** ini merupakan aplikasi pencatat tugas harian yang dibang
 | Dependency ringan            | Kadang berat            | Ringan & cepat         |
 | Google Fonts & Animasi      | Jarang                  | Siap dikembangkan      |
 
----
-
 ## 🖼️ Tampilan Aplikasi
 
 ### ➕ Tambah Task
 
-> **Catatan**: Gambar di atas hanya mockup. Tambahkan screenshot asli di folder `screenshots/`.
 
----
 
 ## 🧩 Dependency yang Digunakan
 
