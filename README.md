@@ -26,11 +26,10 @@ Aplikasi **To-Do List** ini merupakan aplikasi pencatat tugas harian yang dibang
 | Google Fonts & Animasi      | Jarang                  | Siap dikembangkan      |
 
 ## 🖼️ Tampilan Aplikasi
-![image](https://github.com/user-attachments/assets/c42656d1-b313-44bd-9d41-94ad9c29ec34)
+![Light Mode](https://github.com/user-attachments/assets/c42656d1-b313-44bd-9d41-94ad9c29ec34)
 
 ### ➕ Tambah Task
-
-
+![image](https://github.com/user-attachments/assets/62a9f20e-547e-4e66-8890-4dcbede1eb2a)
 
 ## 🧩 Dependency yang Digunakan
 
