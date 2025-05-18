@@ -76,6 +76,19 @@ class _HomePageState extends State<HomePage> {
         onPressed: () {},
         child: const Icon(Icons.add),
       ),
+
+      // display List of todos
+      body: ListView.builder(
+        itemCount: todos.length,
+        itemBuilder: (context, index) {
+          // get each todo
+          final todo = todos[index];
+
+          return ListTile(
+            title: Text(todo),
+            ); 
+        },
+      ),
     );
   }
 }
