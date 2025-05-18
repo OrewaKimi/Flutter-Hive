@@ -51,3 +51,5 @@ dependencies:
   hive: ^2.2.3
   hive_flutter: ^1.1.0
   google_fonts: ^6.1.0
+
+```
