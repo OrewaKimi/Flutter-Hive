@@ -21,12 +21,22 @@ List todos = [];
   @override
   void initState() {
       // load data, if none exist then defalut
+      todos = _myBox.get('TODO_LIST') ?? [];
+
     super.initState();
-    
   }
+
+  // add new todo
+
+  // delete todo
+
+
   Widget build(BuildContext context) {  
     return Scaffold(
-
+      floatingActionButton: FloatingActionButton(
+        onPressed: () {},
+        child: const Icon(Icons.add),
+      ),
     );
   }
 }
