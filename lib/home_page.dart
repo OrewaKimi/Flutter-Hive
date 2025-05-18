@@ -67,6 +67,13 @@ class _HomePageState extends State<HomePage> {
   }
 
   // delete todo
+  void deleteTodo(int index) {
+    setState(() {
+      todos.removeAt(index);
+    });
+    saveToDatabase();
+  }
+
 
   // save to database
   void saveToDatabase() {
@@ -93,7 +100,7 @@ class _HomePageState extends State<HomePage> {
           return ListTile(
             title: Text(todo),
             trailing: IconButton(
-               onPressed: () {},
+               onPressed: () => deleteTodo(index),
               icon: const Icon(Icons.delete),
             ),
           ); 
